@@ -49,6 +49,8 @@ public class LimeLightSub extends SubsystemBase {
   @Override
   public void periodic() {
 
+    System.out.println("working");
+
     SmartDashboard.putNumber("tv", tv.getDouble(0));
     SmartDashboard.putNumber("tx", tx.getDouble(0));
     SmartDashboard.putNumber("ty", ty.getDouble(0));
